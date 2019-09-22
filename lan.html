@@ -1,0 +1,221 @@
+<html>
+
+	<head>
+	<style>
+	.div1{
+	height: auto;
+	width: auto;
+	}
+	.img{
+	height: 150px;
+	max-width: auto;
+	
+	}
+	
+	.img2{
+	height: 40%;
+	width: 40%;
+	}
+	
+	.body_color{
+	height: auto;
+	max_width: device-width;
+	backgorund-color: #ffdab3;
+	}
+	
+	
+	blink {
+        
+	 animation: blinker 2s linear infinite;
+        
+	 color: red;
+       
+	}
+      
+	 @keyframes blinker {  
+        
+	  50% { opacity: 0; 
+	 }
+       
+	}
+	
+	#points{
+	display:none;
+	}
+	</style>
+		 <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" type="TEXT/CSS" href="footer.css"/>
+		<script src="jquery-3.3.1.min.js"></script>
+<script>
+	$(document).ready(function()
+	{
+		
+		$("#more").click(function()
+		{
+			$("#points").toggle();
+		});
+		
+	});
+</script>
+<script>
+	function changetxt()
+	{
+		txt=document.getElementById("more").innerHTML;
+		if(txt == "<blink>More...</blink>")
+		{
+			txt="<blink>Less...</blink>";
+		}else
+		{
+			txt="<blink>More...</blink>";
+		}
+		document.getElementById("more").innerHTML=txt;
+	}
+</script>
+
+	</head>
+<body style="background-color:#e0ebeb">
+<center>
+<div class="container" style="background-color: #FFFFFF">
+		
+		
+
+		<div  class="container-fluid" style="backgorund-color: #2196F3">	
+			<div style="float: left; background-color:  #ffbf80; width: auto">
+				<img src="img\logo (1).webp" class="img" alt="logo"> </img>
+			</div>
+				<div class="container-fluid" style="width: auto; height: auto;background-color:  #448AFF; float: center-right">
+				<h1 class="text-center"><b><font size="20" face="CopperplateGothicBold" color="darkblue">
+				Shivam Digital Services</font></b>
+				</h1>
+				<h4><b><font face="CopperplateGothicBold" color="white">Your one-stop IT shop</font></b></h4>
+				</div>
+		</div>
+		<br>
+		
+	<!--THE NAVBAR STARTS HERE -->
+
+		<nav class="navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#"><b>Shivam Digital Services</b></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="Main(SDS).html"><b>Home</b></a></li>
+		
+              <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#"><b>Computer LAN</b><span class="caret"></span></a>
+          <ul class="dropdown-menu">
+         
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="laptop.html"><b>Laptop Repairing</b></a></li>
+	  <li role="presentation"><a role="menuitem" tabindex="-1" href="lan.html"><b>Computer LAN</b></a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="itsupply.html"><b>IT Hardware & Software Supply</b></a></li>
+	 <li role="presentation"><a role="menuitem" tabindex="-1" href="cctv.html"><b>CCTV/IP Camera System</b></a></li>
+      <li role="presentation" class="divider"></li>
+	  </ul>
+	  <li><a href="contact.html"><b>Contact</b></a></li>
+	  
+	  <li><a href="about.html"><b>About us</b></a></li>
+    </div>
+  </div>
+</nav>
+  <br>
+ 
+		
+
+<br>
+<div class="container-fluid">
+  
+  <div class="cols">
+<center>
+<img src="img\lan\i1.jpg" width="50%" height="50%"> </img> </center><br>
+<hr>
+	<p class="text-center"><B><h5>Computer LAN (Structured Network Cabling):-</h5></B>
+	
+	Computer LAN as per Industry Standards/ Structured
+Network Cabling Solution for Voice, DATA. Video Systems
+Computer Lan as per ANSI TIA Standards. Once you done it 
+you literally forget the LAN connectivity problems, you have
+better speed while accessing network pcs, servers and data.
+Computer LAN is backbone of any company’s IT infrastructure.
+If it is working smoothly you can have always access of 
+internet, Printers, data, Servers. Cabling plays very important
+role in LAN. So we start our job with proper structured network
+cabling as per the standards. Every Business need to invest in 
+cabling system like other IT Infrastructure, but the main difference
+is when we implement standards based structured network cabling it
+lasts for more than 20 years! Comparatively there is no any IT
+system which last such a long period. So Investment of Structured
+Network cabling always offer us attractive ROI Returns on Investment.
+<br><br><u><b>*In following scenario you need Structured Network Cabling
+(LAN as per ANSI TIA Standard) Solution:-<b></u>
+<b><p id="more" Onclick="changetxt()"><blink>More...</blink></p></b>
+<br><br>
+<div id="points"><b>
+<br>a) Suddenly network PCs go offline and without doing anything
+(just computer restart) they come online.
+<br><br>b) You cannot access internet, printer, and server only because
+you are frequently disconnected from LAN
+<br><br>c) You have very slow speed while accessing other pc or server
+<br><br>d) You need to always reconnect lan cables in switch, PC LAN cards
+for connectivity issues
+<br><br>e) You need always crimping RJ 45 Connectors for connectivity problems
+<br><br>f) You have very old cabling system. Old cabling system has
+limitation to offer only 100mbps speed. Even though our Laptop,
+desktop can accept 1000 mbps (1giga speed).So up gradation of old
+cabling system became very necessary for availing benefit of Giga LAN.
+<br><br>g) If you are expanding the business so you need more network connectivity.
+<br><br>h) You are shifting your office to new premises and you want 
+to properly organize your all IT infrastructure network 
+connectivity (Voice Video Data Network)
+<br><br>I) in short we design the network for voice, data, and video 
+as per the industry standards. So it becomes robust and your 
+business operation carry out smoothly.
+		</b>
+	
+	</p>
+	
+		
+
+</div>
+</div>
+
+
+
+
+<!-- fotter start here -->
+	<div class="container-fluid" style="background-color: orange">
+		<div class="navbar-default" style="background-color: orange">
+			
+		<div class="footer">
+  <div id="button"></div>
+<div id="container">
+<div id="cont">
+<div class="footer_center">
+	   <h3><font color="white"><b>
+			Developed by:-<br>
+			Dipesh Gopal Raipurkar<br>
+			dipeshraipurkar1999@gmail.com
+			</b></font></h3>
+	   </div>
+</div>
+</div>
+</div>
+		
+		</div>
+
+	</div>
+</div>
+
+</center>
+</body>
+</html>
